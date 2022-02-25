@@ -38,6 +38,7 @@ Frontend
 # Program Workflow
 The workflow of the Calendar is shown below.
 
+[![flow](https://github.com/Davidmenamm/Calendar_Application/blob/main/workflow.gif)](https://github.com/Davidmenamm/Calendar_Application/blob/main/workflow.gif)
 
 
 # Final Message
