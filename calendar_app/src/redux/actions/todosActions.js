@@ -31,13 +31,13 @@ export const addEvent = ({
     // current state
     let currentEvents = getState().todos.eventsInMonth;
     console.log("idx1");
-    console.log(day, time, event, idx);
+    console.log(day, time, event, idx, parseInt(day), (parseInt(day)-1).toString());
     console.log("idx2");
     // check if repeated
     if (idx !== null && idx !== undefined){
-      currentEvents[day][idx] = {day, time, event, color, city};
+      currentEvents[parseInt(day)-1][idx] = {day:(parseInt(day)-1).toString(), time, event, color, city};
     } else {
-      currentEvents[day].push({day, time, event, color});
+      currentEvents[parseInt(day)-1].push({day:(parseInt(day)-1).toString(), time, event, color});
     }
     // update state
     const updatedEvents = JSON.parse(JSON.stringify(currentEvents));
