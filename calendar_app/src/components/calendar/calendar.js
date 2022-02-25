@@ -388,7 +388,7 @@ export const Calendar = () => {
                                                                             <button
                                                                                 type="button"
                                                                                 onClick= {() => {
-                                                                                    setText1(currentEvent.day);
+                                                                                    setText1(currentEvent.day + 1);
                                                                                     setText2(currentEvent.time);
                                                                                     setText3(currentEvent.event);
                                                                                     setText4(currentEvent.city);
