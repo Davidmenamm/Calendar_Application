@@ -231,7 +231,7 @@ export const Calendar = () => {
                         multiline={true}
                         // minRows={1}
                         value={text1}
-                        onChange={e => setText1(e.target.value)}/>
+                        onChange={e => setText1(e.target.value - 1)}/>
                     {/* Time */}
                     <p>{'Time'}</p>
                     <TextField name='time'
