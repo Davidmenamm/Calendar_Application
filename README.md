@@ -35,9 +35,6 @@ Frontend
 - Later, on the same directory run the command "yarn start".
 
 
-[![flow](https://github.com/Davidmenamm/MERN-Stack-MongoDB-Express-React-Node/blob/main/database_img.png)](https://github.com/Davidmenamm/MERN-Stack-MongoDB-Express-React-Node/blob/main/database_img.png)
-
-
 # Program Workflow
 The workflow of the Calendar is shown below.
 
