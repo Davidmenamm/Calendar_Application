@@ -20,6 +20,10 @@ Tasks Not Completed From the "instructions.pdf":
 - Use date time types.
 - Unit testing.
 
+A screen shot of the program is displayed.
+
+[![flow](https://github.com/Davidmenamm/Calendar_Application/blob/main/screen.png)](https://github.com/Davidmenamm/Calendar_Application/blob/main/screen.png)
+
 
 # Structure
 Only Frontend (React and Redux)
